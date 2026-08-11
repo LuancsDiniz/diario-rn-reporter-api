@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: diario-rn-reporter-api
+
+server:
+  port: ${SERVER_PORT}
+
+wordpress:
+  base-url: ${WORDPRESS_BASE_URL}
