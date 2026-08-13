@@ -20,6 +20,7 @@ jobs:
 
     env:
       WORDPRESS_BASE_URL: https://example.com
+      SERVER_PORT: 8080
 
     steps:
       - name: Checkout repository
